@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: #007bff;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0); /* Fully transparent */
+    color: #000; /* Ensure text is visible */
+}
+
+.form-control:placeholder-shown {
+    background-color: rgba(255, 255, 255, 0); /* Fully transparent */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Weather Info Styles */
+.list-group-item {
+    background-color: rgba(255, 255, 255, 0); /* Fully transparent */
+    border: 1px solid #4c7196;
+    margin-bottom: 10px;
+}
+
+.list-group-item:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0); /* Fully transparent */
+}
+
+.list-group-item:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0); /* Fully transparent */
+}
+
+h2 {
+    color: #343a40;
+    margin-top: 20px;
+}
